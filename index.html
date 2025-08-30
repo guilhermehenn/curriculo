@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark light">
+  <title>Currículo — Guilherme Henn</title>
+  <meta name="description" content="Currículo de Guilherme Henn — Analista de Sistemas na CWI Software. Trajetória, projetos e contato.">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="topbar" aria-label="Cabeçalho do site">
+    <div class="container topbar-inner">
+      <div class="brand">Currículo — Guilherme Henn</div>
+      <label class="switch" id="themeSwitchLabel" title="Alternar tema">
+        <input type="checkbox" id="themeSwitch" aria-label="Alternar tema claro/escuro">
+        <span class="slider" aria-hidden="true"></span>
+        <span class="switch-emoji" id="switchEmoji" aria-hidden="true">🌙</span>
+      </label>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Intro -->
+    <section class="intro" aria-labelledby="titulo-intro">
+      <div class="perfil">
+        <img
+          src="./img/minha-foto.png"
+          alt="Retrato de Guilherme Henn"
+          class="foto-perfil"
+          width="150" height="150"
+          loading="lazy" decoding="async"
+        />
+      </div>
+      <div class="texto">
+        <h1 id="titulo-intro">Seja bem-vindo(a) ao meu Currículo</h1>
+        <h2>Guilherme Henn</h2>
+        <p>
+          Sou Analista de Sistemas na CWI Software. Também estudo Análise e Desenvolvimento de Sistemas na
+          <a href="https://www.univates.br/" target="_blank" rel="noopener noreferrer">Univates</a>.
+          Gosto de tecnologia, investimentos e podcasts. Aqui você encontrará informações sobre minha trajetória e formas de contato.
+        </p>
+      </div>
+    </section>
+
+    <!-- Seções -->
+    <section class="sections" aria-labelledby="titulo-sections">
+      <h2 id="titulo-sections">Seções do currículo</h2>
+      <div class="shortcut-grid">
+        <a class="shortcut shortcut-lg" href="escolaridade.html">
+          <div class="title">🎓 <span>Escolaridade</span></div>
+          <p>Formação acadêmica e cursos relevantes.</p>
+          <span class="cta">Abrir página →</span>
+        </a>
+        <a class="shortcut shortcut-lg" href="idiomas.html">
+          <div class="title">🌐 <span>Idiomas</span></div>
+          <p>Idiomas e níveis de proficiência.</p>
+          <span class="cta">Abrir página →</span>
+        </a>
+        <a class="shortcut shortcut-lg" href="experiencias.html">
+          <div class="title">💼 <span>Experiências</span></div>
+          <p>Histórico profissional e principais responsabilidades.</p>
+          <span class="cta">Abrir página →</span>
+        </a>
+        <a class="shortcut shortcut-lg" href="gostos.html">
+          <div class="title">💡 <span>Gostos pessoais</span></div>
+          <p>Interesses que me movem fora do trabalho.</p>
+          <span class="cta">Abrir página →</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Contatos -->
+    <section class="contacts" aria-labelledby="titulo-contatos">
+      <h2 id="titulo-contatos">Contatos</h2>
+      <ul class="contact-list">
+        <li>
+          <a class="contact-link" href="https://www.linkedin.com/in/guilhermehenn/" target="_blank" rel="noopener noreferrer">
+            <span class="emoji" aria-hidden="true">💼</span>
+            <span>linkedin.com/in/guilhermehenn</span>
+          </a>
+        </li>
+        <li>
+          <a class="contact-link" href="mailto:guilhermehenn@protonmail.com">
+            <span class="emoji" aria-hidden="true">📧</span>
+            <span>guilhermehenn@protonmail.com</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer aria-label="Rodapé do site" class="container footer">
+    <p>Feito por <strong>Guilherme Henn</strong> • <span id="year"></span></p>
+  </footer>
+
+  <script src="./js/script.js" defer></script>
+</body>
+</html>
